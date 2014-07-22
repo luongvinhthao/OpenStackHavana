@@ -1,0 +1,5 @@
+# set default password for all service 
+
+DEFAULT_PASS= openstack
+
+RABBIT_PASS = "$DEFAULT_PASS"

@@ -11,6 +11,7 @@ awk '/search pattern1/ {Actions}
      /search pattern2/ {Actions}' file
 #insert one line under another line
 sed 's/fields/fields\nNew Inserted Line/' file.txt 
+sed -i '/SearchPattern/aNew Text' SomeFile.txt
 -------------------------------------------------------------------------
 
 FILE SPACING:
